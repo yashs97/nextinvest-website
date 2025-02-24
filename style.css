@@ -828,6 +828,188 @@ font-weight: 600;
     }
   }
 
+/* For screen size below 530px */
+
+  @media screen and (max-width:530px) {
+  
+    body{
+      overflow-x: hidden;
+    }
+
+    .overlay{
+      height: 35vh;
+    }
+
+    .image_circle{
+        visibility: hidden;
+    }
+  
+    .overlay h1{
+      font-size: 18px;
+      margin-left: 35px;
+      text-align: center;
+    }
+  
+    .overlay p{
+      font-size: 12px;
+      margin-left: 38px;
+      text-align: center;
+    }
+  
+    .overlay button{
+      margin-left: 31px;
+      padding: 6px 8px;
+      font-size: 8px;
+    }
+  
+    .div3{
+      grid-template-columns: 1fr;
+    }
+  
+    .shape{
+      visibility:hidden;
+    }
+  
+    .div1 h1{
+      font-size: 18px;
+      margin-top: 50px;
+      text-align: center;
+    }
+  
+    .div2 p{
+      font-size: 11px;
+    }
+
+    .last_button{
+      padding: 10px 12px;
+    }
+  
+    .right-shape2{
+      visibility: hidden;
+    }
+
+    .right-shape{
+      width: 45px;
+      top:0;
+      right: 75px;
+    }
+
+    .graph-section, .red-section{
+      grid-template-columns: 150px 150px;
+      height: 220px;
+    }
+
+    .left-sec h1{
+      font-size:15px;
+      z-index: 5;
+    }
+  
+    .left-sec p{
+      font-size: 8px;
+    }
+
+    .left-sec{
+      gap:10px;
+    }
+
+    .left-sec img{
+      width: 20px;
+    }
+
+    .left-shape{
+      width: 180px;
+      height: 120px;
+    }
+
+    .right-sec {
+      align-items: flex-end;
+    }
+
+    .red-left-sec{
+      gap: 10px;
+    }
+
+    .red-left-sec h1{
+      font-size: 15px;
+    }
+
+    .red-left-sec p{
+      font-size: 8px;
+    }
+
+    .red-left-sec button{
+      font-size:8px;
+      width:70px;
+      padding: 10px 5px;
+    }
+
+    .red-shape{
+      visibility: hidden;
+    }
+  
+  
+    /* Footer Media Screen for screen smaller than 530px */
+    .foot{
+      grid-template-columns: 90px 50px 40px 70px;
+      gap:19px;    
+    }
+
+    .foot-two h4, .foot-three h4{
+      font-size: 10px;
+    }
+
+    .foot-two, .foot-three{
+      gap:30px;
+      font-size: 6px;
+    }
+
+    .foot-one{
+      gap:15px;
+    }
+
+    .subscribe{
+      font-size: 10px;
+    }
+
+    .foot-one h3{
+      font-size: 12px;
+    }
+  
+    .input-email{
+      width: 60px;
+      font-size: 8px;
+    }
+  
+    .insta{
+      width: 18px;
+    }
+    
+    .fb{
+      width: 13px;
+    }
+    
+    .twitter{
+      width: 13px;
+    }
+  
+    .footer-logos{
+      gap:12px;
+    }
+  
+    .circle-btn{
+      width: 22px;
+      height: 22px;
+      padding: 2px 8px;
+    }
+  
+    .foot button img{
+      width: 8px;
+    }
+  
+    .input-box button{
+      padding: 4px 6px 2px;
+    }
+  }
 
 
 
